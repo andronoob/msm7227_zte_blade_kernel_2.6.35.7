@@ -1,0 +1,18 @@
+# Aliases extracted from modules themselves.
+alias nls_sjis nls_cp932
+alias platform:soc-audio snd_soc_core
+alias input:b*v*p*e*-e*k*r*a*m*l*s*f*w* evbug
+alias char-major-116-* snd
+alias nls_big5 nls_cp950
+alias snd-seq-client-14 snd_seq_dummy
+alias stdrng ansi_cprng
+alias nls_euc-kr nls_cp949
+alias i2c:synaptics_i2c synaptics_i2c
+alias tty-ldisc-2 serport
+alias iso9660 isofs
+alias serio:ty05pr*id*ex* psmouse
+alias serio:ty01pr*id*ex* psmouse
+alias snd-timer-3 snd_hrtimer
+alias nls_gb2312 nls_cp936
+alias sound-service-?-0 snd_mixer_oss
+alias block-major-7-* loop

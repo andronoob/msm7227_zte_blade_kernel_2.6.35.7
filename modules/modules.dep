@@ -1,0 +1,91 @@
+zram.ko: lzo_compress.ko
+zlib.ko:
+xz_dec_test.ko: xz_dec.ko
+xz_dec.ko:
+ufs.ko:
+udf.ko: crc-itu-t.ko
+synaptics_i2c.ko:
+sunrpc.ko:
+stp.ko: llc.ko
+squashfs.ko: xz_dec.ko
+snd.ko:
+snd-virmidi.ko: snd-seq-virmidi.ko snd-rawmidi.ko snd-seq-midi-event.ko snd-seq.ko snd-timer.ko snd-seq-device.ko snd.ko
+snd-timer.ko: snd.ko
+snd-soc-msm7k.ko: snd-soc-msm-dai.ko snd-soc-msm.ko snd-soc-core.ko snd-pcm.ko snd-timer.ko snd.ko snd-page-alloc.ko
+snd-soc-msm.ko: snd-soc-core.ko snd-pcm.ko snd-timer.ko snd.ko snd-page-alloc.ko
+snd-soc-msm-dai.ko: snd-soc-core.ko snd-pcm.ko snd-timer.ko snd.ko snd-page-alloc.ko
+snd-soc-core.ko: snd-pcm.ko snd-timer.ko snd.ko snd-page-alloc.ko
+snd-serial-u16550.ko: snd-rawmidi.ko snd-seq-device.ko snd.ko
+snd-seq.ko: snd-timer.ko snd-seq-device.ko snd.ko
+snd-seq-virmidi.ko: snd-rawmidi.ko snd-seq-midi-event.ko snd-seq.ko snd-timer.ko snd-seq-device.ko snd.ko
+snd-seq-midi.ko: snd-rawmidi.ko snd-seq-midi-event.ko snd-seq.ko snd-timer.ko snd-seq-device.ko snd.ko
+snd-seq-midi-event.ko: snd-seq.ko snd-timer.ko snd-seq-device.ko snd.ko
+snd-seq-dummy.ko: snd-seq.ko snd-timer.ko snd-seq-device.ko snd.ko
+snd-seq-device.ko: snd.ko
+snd-rawmidi.ko: snd-seq-device.ko snd.ko
+snd-pcm.ko: snd-timer.ko snd.ko snd-page-alloc.ko
+snd-page-alloc.ko:
+snd-mtpav.ko: snd-rawmidi.ko snd-seq-device.ko snd.ko
+snd-mpu401.ko: snd-mpu401-uart.ko snd-rawmidi.ko snd-seq-device.ko snd.ko
+snd-mpu401-uart.ko: snd-rawmidi.ko snd-seq-device.ko snd.ko
+snd-mixer-oss.ko: snd.ko
+snd-hrtimer.ko: snd-timer.ko snd.ko
+snd-dummy.ko: snd-pcm.ko snd-timer.ko snd.ko snd-page-alloc.ko
+smbfs.ko:
+serport.ko: serio.ko
+serio.ko:
+scsi_wait_scan.ko:
+rpcsec_gss_krb5.ko: auth_rpcgss.ko sunrpc.ko
+reset_modem.ko:
+psnap.ko: llc.ko
+psmouse.ko: libps2.ko serio.ko
+p8022.ko: llc.ko
+oprofile.ko:
+ntfs.ko:
+nls_utf8.ko:
+nls_euc-jp.ko:
+nls_cp950.ko:
+nls_cp949.ko:
+nls_cp936.ko:
+nls_cp932.ko:
+nfsd.ko: lockd.ko nfs_acl.ko auth_rpcgss.ko sunrpc.ko exportfs.ko
+nfs_acl.ko: sunrpc.ko
+nfs.ko: lockd.ko nfs_acl.ko auth_rpcgss.ko sunrpc.ko
+nbd.ko:
+mtd_torturetest.ko:
+mtd_subpagetest.ko:
+mtd_stresstest.ko:
+mtd_speedtest.ko:
+mtd_readtest.ko:
+mtd_pagetest.ko:
+mtd_oobtest.ko:
+mtd_nandecctest.ko:
+mtd_erasepart.ko:
+msdos.ko:
+mbcache.ko:
+lzo_compress.ko:
+lzo.ko: lzo_compress.ko
+loop.ko:
+lockd.ko: sunrpc.ko
+llc.ko:
+libps2.ko:
+jbd2.ko:
+jbd.ko:
+isofs.ko:
+ext4.ko: mbcache.ko jbd2.ko
+ext3.ko: jbd.ko mbcache.ko
+ext2.ko: mbcache.ko
+exportfs.ko:
+evbug.ko:
+dma_test.ko:
+cryptoloop.ko: loop.ko
+crc-itu-t.ko:
+cramfs.ko:
+cpaccess.ko:
+cifs.ko:
+cfq-iosched.ko:
+bridge.ko: stp.ko llc.ko
+binfmt_misc.ko:
+auth_rpcgss.ko: sunrpc.ko
+aufs.ko: exportfs.ko
+ansi_cprng.ko:
