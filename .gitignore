@@ -14,7 +14,7 @@
 *.o.*
 *.a
 *.s
-*.ko
+#*.ko
 *.so
 *.so.dbg
 *.mod.c
@@ -39,7 +39,7 @@ tags
 TAGS
 vmlinux
 vmlinux.lds
-zImage
+#zImage
 Image
 System.map
 Module.markers
